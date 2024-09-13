@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { Button, ContainerInputs, Form, Input, InputLabel, Title, TopBackground } from './styles'
+import { Button, ContainerInputs, Form, Input, InputLabel, Title, TopBackground, Container } from './styles'
 
 
 function Home() {
@@ -43,4 +43,4 @@ function Home() {
   )
 }
 
-export default App
+export default Home
