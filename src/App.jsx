@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { Button, ContainerInputs, Form, Input, InputLabel, Title, TopBackground, Container } from './styles'
-
+import UserImage from './assets/users.png'
 
 function Home() {
  
@@ -11,7 +10,7 @@ function Home() {
     <>
       <Container>
         <TopBackground>
-          <img src="" alt="" />
+          <img src= {UserImage} alt="" />
         </TopBackground>
 
 
