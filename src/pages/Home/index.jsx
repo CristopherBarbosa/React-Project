@@ -3,6 +3,7 @@ import viteLogo from '/vite.svg'
 import { Button, ContainerInputs, Form, Input, InputLabel, Title, TopBackground, Container } from './styles'
 import UserImage from '../../assets/users.png'
 import trash from '../../assets/trash.svg'
+import api from '../../services/api'
 
 import { useRef } from 'react'
 
@@ -11,8 +12,14 @@ function Home() {
   const inputAge = useRef()
   const inputEmail = useRef()
 
-  function registerNewUser(){
+  async function registerNewUser(){
+     const data = await api.post('/usuarios', {
+      email: inputEmail.current.value,
+      age: parseInt (inputAge.current.value),
+      name:inputName.current.value
+    })
 
+    console.log(data)
   }
 
   return (
