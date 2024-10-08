@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
-import { Button, ContainerInputs, Form, Input, InputLabel, Title, TopBackground, Container } from './styles'
+import {ContainerInputs, Form, Input, InputLabel, Title, TopBackground, Container } from './styles'
 import UserImage from '../../assets/users.png'
 import trash from '../../assets/trash.svg'
 import api from '../../services/api'
 
 import { useRef } from 'react'
+import  Button  from '../../components/Button'
 
 function Home() {
   const inputName = useRef()
