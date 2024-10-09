@@ -1,9 +1,9 @@
 import {Button} from './styles'
 
 
-function DefaultButton(){
+function DefaultButton({children, ...props }){
     return(
-        <Button>Ok Ok</Button>
+        <Button {...props}>{children}</Button>
     )
 }
 
