@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
-import {ContainerInputs, Form, Input, InputLabel, Title, TopBackground, Container } from './styles'
-import UserImage from '../../assets/users.png'
+import {ContainerInputs, Form, Input, InputLabel, Title, Container } from './styles'
+
 import trash from '../../assets/trash.svg'
 import api from '../../services/api'
 
 import { useRef } from 'react'
 import  Button  from '../../components/Button'
+import TopBackground from '../../components/TopBackground'
 
 function Home() {
   const inputName = useRef()
@@ -26,9 +27,7 @@ function Home() {
   return (
     <>
       <Container>
-        <TopBackground>
-          <img src= {UserImage} alt="" />
-        </TopBackground>
+        <TopBackground />
 
 
         <Form>
