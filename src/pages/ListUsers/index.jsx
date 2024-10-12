@@ -8,11 +8,12 @@ import api from "../../services/api"
 
 function ListUsers() {
 
-
+    const [users, setUsers] = useState([])
+    
     useEffect(() => {
         async function getUsers(){
-            const usersFromApi = await api.get('/usuarios')
-            console.log(usersFromApi)
+            const {data} = await api.get('/usuarios')
+            setUsers(data)
         }
         getUsers()
     }, [])
@@ -22,6 +23,13 @@ function ListUsers() {
             
             <TopBackground />
             <h1>Listagem de Usuários</h1>
+            {users.map((user) => (
+                <div key={user.id}>
+                    <p>{user.name}</p>
+                    <p>{user.email}</p>
+                    <p>{user.age}</p>
+                </div>
+            ))}
 
             <Button>Voltar</Button>
 
