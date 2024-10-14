@@ -60,4 +60,5 @@ Adicionar autenticação e autorização de usuários.
 Melhorar a interface com estilização adicional.
 
 🤝 Contribuindo
+
 Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
