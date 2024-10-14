@@ -26,30 +26,30 @@ Node.js
 
 1.Clone este repositório:
 
-git clone https://github.com/CristopherBarbosa/React-Project.git
+   git clone https://github.com/CristopherBarbosa/React-Project.git
 
 2. Instale as dependências do front-end:
    
-cd frontend
-npm install
+   cd frontend
+   npm install
 
 3. Instale as dependências do back-end:
 
-cd ../backend
-npm install
+   cd ../backend
+   npm install
 
 4. Configure o banco de dados no arquivo .env do back-end:
 
-MONGO_URI=sua-URI-do-mongodb
+   MONGO_URI=sua-URI-do-mongodb
 
 5. Execute o back-end:
 
-npm start
+   npm start
 
 6. Execute o front-end:
 
-cd ../frontend
-npm start
+   cd ../frontend
+   npm start
 
 🛠️ Melhorias Futuras
 Implementar a edição de usuários cadastrados.
