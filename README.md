@@ -24,9 +24,9 @@ Node.js
 
 🚀 Como Rodar o Projeto
 
-1.Clone este repositório:
+   1.Clone este repositório:
 
-   git clone https://github.com/CristopherBarbosa/React-Project.git
+      git clone https://github.com/CristopherBarbosa/React-Project.git
 
 2. Instale as dependências do front-end:
    
