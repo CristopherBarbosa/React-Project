@@ -52,8 +52,11 @@ Node.js
          npm start
 
 🛠️ Melhorias Futuras
+
 Implementar a edição de usuários cadastrados.
+
 Adicionar autenticação e autorização de usuários.
+
 Melhorar a interface com estilização adicional.
 
 🤝 Contribuindo
