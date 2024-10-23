@@ -45,12 +45,11 @@ Node.js
 
 5. Execute o back-end:
 
-         npm start
+         npm run dev
 
 6. Execute o front-end:
 
-         cd ../frontend
-         npm start
+        npm run dev
 
 🛠️ Melhorias Futuras
 
