@@ -19,8 +19,8 @@ Remoção de Usuários: Exclua usuários cadastrados com facilidade.
 ⚙️ Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina:
 
-Git
-Node.js
+Git <br>
+Node.js <br>
 Api do projeto: https://github.com/CristopherBarbosa/Servidor-Cadastro-Usuarios
 
 🚀 Como Rodar o Projeto
