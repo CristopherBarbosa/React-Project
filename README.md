@@ -31,12 +31,10 @@ Api do projeto: https://github.com/CristopherBarbosa/Servidor-Cadastro-Usuarios
 
 2. Instale as dependências do front-end:
    
-         cd frontend
          npm install
 
 3. Instale as dependências do back-end:
 
-         cd ../backend
          npm install
 
 4. Configure o banco de dados no arquivo .env do back-end:
